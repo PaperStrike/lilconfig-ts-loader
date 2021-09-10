@@ -3,14 +3,14 @@ A TypeScript loader for lilconfig. Migrated from [@endemolshinegroup/cosmiconfig
 ## Installation
 
 ```bash
-yarn add lilconfig-typescript-loader
+yarn add @sliphua/lilconfig-ts-loader
 ```
 
 ## Usage
 
 ```typescript
 import { lilconfig } from 'lilconfig';
-import TypeScriptLoader from 'lilconfig-typescript-loader';
+import { TypeScriptLoader } from '@sliphua/lilconfig-ts-loader';
 
 const moduleName = 'myModuleName';
 const explorer = lilconfig(moduleName, {
