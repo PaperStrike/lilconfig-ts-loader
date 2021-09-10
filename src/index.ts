@@ -1,4 +1,4 @@
-import { Loader } from 'cosmiconfig';
+import { Loader } from 'lilconfig';
 import get from 'lodash.get';
 
 import TypeScriptCompileError from './Errors/TypeScriptCompileError';

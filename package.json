@@ -1,13 +1,13 @@
 {
-  "name": "@endemolshinegroup/cosmiconfig-typescript-loader",
-  "description": "A TypeScript loader for Cosmiconfig",
+  "name": "lilconfig-typescript-loader",
+  "description": "A TypeScript loader for lilconfig",
   "version": "3.0.2",
   "license": "MIT",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "keywords": [
-    "cosmiconfig",
-    "cosmiconfig-loader",
+    "lilconfig",
+    "lilconfig-loader",
     "typescript"
   ],
   "author": {
@@ -17,10 +17,10 @@
   "files": [
     "dist"
   ],
-  "homepage": "https://github.com/EndemolShineGroup/cosmiconfig-typescript-loader",
+  "homepage": "https://github.com/PaperStrike/lilconfig-typescript-loader",
   "repository": {
     "type": "git",
-    "url": "https://github.com/EndemolShineGroup/cosmiconfig-typescript-loader.git"
+    "url": "https://github.com/PaperStrike/lilconfig-typescript-loader.git"
   },
   "engines": {
     "node": ">=10.0.0"
@@ -36,7 +36,7 @@
     "lint": "tslint -p tsconfig.json -t codeFrame 'src/**/*.ts' -e 'src/**/*.spec.ts'"
   },
   "peerDependencies": {
-    "cosmiconfig": ">=6"
+    "lilconfig": ">=2"
   },
   "dependencies": {
     "lodash.get": "^4",
@@ -56,9 +56,9 @@
     "@types/lodash.get": "^4",
     "@types/node": "10.*",
     "commitizen": "^4",
-    "cosmiconfig": "^7",
     "husky": "^4",
     "jest": "^26",
+    "lilconfig": "^2",
     "lint-staged": "^10",
     "prettier": "^2",
     "rimraf": "^3",
