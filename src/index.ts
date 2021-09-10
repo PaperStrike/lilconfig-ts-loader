@@ -3,7 +3,7 @@ import get from 'lodash.get';
 
 import TypeScriptCompileError from './Errors/TypeScriptCompileError';
 
-export const loader: Loader = (filePath: string) => {
+export const TypeScriptLoader: Loader = (filePath: string) => {
   try {
     require('ts-node').register({
       compilerOptions: {
@@ -19,4 +19,4 @@ export const loader: Loader = (filePath: string) => {
   }
 };
 
-export default loader;
+export default TypeScriptLoader;
